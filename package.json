@@ -1,0 +1,19 @@
+{
+  "name": "automate-schedule",
+  "version": "1.0.0",
+  "description": "Downloads, parses, and stores my soccer schedule",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilgefjm/automate-schedule.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hilgefjm/automate-schedule/issues"
+  },
+  "homepage": "https://github.com/hilgefjm/automate-schedule#readme"
+}
