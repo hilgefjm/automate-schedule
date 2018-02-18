@@ -1,0 +1,40 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "mocha": true,
+    "jasmine": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "block-scoped-var": [ "error" ],
+    "block-spacing": [ "error", "always" ],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "comma-dangle": ["error", "never"],
+    "curly": [ "error", "multi-line" ],
+    "eol-last": ["error"],
+    "indent": [ "error", 2 ],
+    "linebreak-style": [ "error", "windows" ],
+    "no-console": 0,
+    "no-invalid-regexp": [ "error" ],
+    "no-mixed-spaces-and-tabs": ["error"],
+    "no-multiple-empty-lines": ["error"],
+    "no-trailing-spaces": ["error"],
+    "no-unused-vars" : [ "warn" ],
+    "quotes": [ "error", "single" ],
+    "semi": [ "error", "always" ],
+    "space-before-blocks": ["error"],
+    "space-before-function-paren": ["error"],
+    "spaced-comment": ["error", "always"],
+    "valid-jsdoc" : [ "error" ],
+    "valid-typeof": [ "warn" ]
+    }
+}
